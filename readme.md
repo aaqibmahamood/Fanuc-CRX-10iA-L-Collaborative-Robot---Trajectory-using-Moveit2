@@ -203,7 +203,7 @@ ros2 launch moveit_setup_assistant setup_assistant.launch.py
 - Add `home` pose for `manipulator` group
 
 ### MoveIt2 Configuration -  Home Robot Pose
-![home.mp4](assets/home.mp4)
+https://github.com/user-attachments/assets/e2d368af-1b77-4b95-9ffb-fed279db5308
 
 6. **End Effector**
 - Name: `end_effector`
@@ -314,7 +314,7 @@ ros2 launch moveit2_scripts test_trajectory.launch.py
 ## <span id="6">6. Video Demonstrations
 
 ### Trajectory Execution
-![trajectory_execution.mp4](assets/trajectory.mp4)
+https://github.com/user-attachments/assets/a5a94576-ee0d-41b5-b8da-b1a78eeec2a3
 
 ## Troubleshooting
 - Ensure ROS2 Humble is correctly installed
