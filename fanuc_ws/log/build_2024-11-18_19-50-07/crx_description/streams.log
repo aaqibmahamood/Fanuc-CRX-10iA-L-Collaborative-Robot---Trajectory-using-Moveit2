@@ -1,0 +1,76 @@
+[0.025s] Invoking command in '/home/aaqib/fanuc_ws/build/crx_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aaqib/fanuc_ws/src/crx_description -DCMAKE_INSTALL_PREFIX=/home/aaqib/fanuc_ws/install/crx_description
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.211s] -- The CXX compiler identification is GNU 11.4.0
+[0.231s] -- Detecting C compiler ABI info
+[0.360s] -- Detecting C compiler ABI info - done
+[0.371s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.371s] -- Detecting C compile features
+[0.372s] -- Detecting C compile features - done
+[0.376s] -- Detecting CXX compiler ABI info
+[0.513s] -- Detecting CXX compiler ABI info - done
+[0.524s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.524s] -- Detecting CXX compile features
+[0.525s] -- Detecting CXX compile features - done
+[0.529s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.782s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.922s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.047s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.048s] -- Added test 'lint_cmake' to check CMake code style
+[1.049s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.053s] -- Added test 'xmllint' to check XML markup files
+[1.055s] -- Configuring done
+[1.060s] -- Generating done
+[1.061s] -- Build files have been written to: /home/aaqib/fanuc_ws/build/crx_description
+[1.070s] Invoked command in '/home/aaqib/fanuc_ws/build/crx_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aaqib/fanuc_ws/src/crx_description -DCMAKE_INSTALL_PREFIX=/home/aaqib/fanuc_ws/install/crx_description
+[1.074s] Invoking command in '/home/aaqib/fanuc_ws/build/crx_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/crx_description -- -j16 -l16
+[1.144s] Invoked command in '/home/aaqib/fanuc_ws/build/crx_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/crx_description -- -j16 -l16
+[1.212s] Invoking command in '/home/aaqib/fanuc_ws/build/crx_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/crx_description
+[1.231s] -- Install configuration: ""
+[1.231s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/launch
+[1.233s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/launch/view_softgripper.launch.py
+[1.234s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/launch/view_robot.launch.py
+[1.234s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes
+[1.235s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision
+[1.235s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j4.stl
+[1.235s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/base.stl
+[1.235s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j5.stl
+[1.237s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j6.stl
+[1.238s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j1.stl
+[1.238s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j3.stl
+[1.238s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j2.stl
+[1.238s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual
+[1.238s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j4.stl
+[1.238s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/base.stl
+[1.239s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j5.stl
+[1.239s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j6.stl
+[1.239s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j1.stl
+[1.239s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j3.stl
+[1.240s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j2.stl
+[1.241s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/softgripper
+[1.241s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/softgripper/softgripper_mount.stl
+[1.241s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/softgripper/softgripper_finger.stl
+[1.247s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/softgripper/quick_changer.stl
+[1.251s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf
+[1.252s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/utils.xacro
+[1.252s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/crx10ia_l.urdf.xacro
+[1.253s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/softgripper.urdf.xacro
+[1.253s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/simulation_interface.xacro
+[1.254s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/crx10ia_l.xacro
+[1.254s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/world
+[1.254s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/world/empty_world.sdf
+[1.254s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/ament_index/resource_index/package_run_dependencies/crx_description
+[1.254s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/ament_index/resource_index/parent_prefix_path/crx_description
+[1.254s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/environment/ament_prefix_path.sh
+[1.254s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/environment/ament_prefix_path.dsv
+[1.255s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/environment/path.sh
+[1.255s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/environment/path.dsv
+[1.256s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/local_setup.bash
+[1.256s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/local_setup.sh
+[1.256s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/local_setup.zsh
+[1.257s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/local_setup.dsv
+[1.257s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.dsv
+[1.257s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/ament_index/resource_index/packages/crx_description
+[1.258s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/cmake/crx_descriptionConfig.cmake
+[1.258s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/cmake/crx_descriptionConfig-version.cmake
+[1.258s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.xml
+[1.264s] Invoked command in '/home/aaqib/fanuc_ws/build/crx_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/crx_description

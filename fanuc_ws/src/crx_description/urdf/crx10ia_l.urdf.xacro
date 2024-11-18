@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" xmlns="http://www.w3.org/2001/XMLSchema-instance">
+
+  <xacro:macro name="crx10ial">
+
+    <!-- Links -->
+    <link name="base_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find crx_description)/meshes/visual/base.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="FANUC_Black"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find crx_description)/meshes/collision/base.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <xacro:cylinder_inertia m="10.0" r="0.05" h="0.1" />
+    </link>
+
+    <link name="J1_link">
+      <visual>
+        <origin xyz="0 0 -0.1173" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find crx_description)/meshes/visual/j1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="FANUC_White"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 -0.1173" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find crx_description)/meshes/collision/j1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <xacro:cylinder_inertia m="5.5" r="0.08" h="0.24" />
+    </link>
+
+    <link name="J2_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find crx_description)/meshes/visual/j2.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="FANUC_White"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find crx_description)/meshes/collision/j2.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <xacro:cylinder_inertia m="12.1" r="0.07" h="0.85" />
+    </link>
+
+    <link name="J3_link">
+      <visual>
+	      <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find crx_description)/meshes/visual/j3.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+	      <material name="FANUC_White"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find crx_description)/meshes/collision/j3.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <xacro:cylinder_inertia m="2.8" r="0.06" h="0.23" />
+    </link>
+
+    <link name="J4_link">
+      <visual>
+	      <origin xyz="0.54 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find crx_description)/meshes/visual/j4.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="FANUC_White"/>
+      </visual>
+      <collision>
+        <origin xyz="0.54 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find crx_description)/meshes/collision/j4.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <xacro:cylinder_inertia m="3.4" r="0.05" h="0.42" />   
+    </link>
+
+    <link name="J5_link">
+      <visual>
+        <origin xyz="0 -0.15 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find crx_description)/meshes/visual/j5.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="FANUC_White"/>
+      </visual>
+      <collision>
+        <origin xyz="0 -0.150 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find crx_description)/meshes/collision/j5.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <xacro:cylinder_inertia m="1.5" r="0.05" h="0.16" />
+    </link>
+
+    <link name="J6_link">
+      <visual>
+        <origin xyz="0.16 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find crx_description)/meshes/visual/j6.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="FANUC_Black"/>
+      </visual>
+      <collision>
+        <origin xyz="0.16 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="file://$(find crx_description)/meshes/collision/j6.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <xacro:cylinder_inertia m="0.5" r="0.04" h="0.06" />
+    </link>
+
+    <!-- Joints -->
+    <joint name="J1" type="revolute">
+      <origin xyz="0 0 0.245" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="J1_link"/>
+      <axis xyz="0 0 1"/>
+      <limit lower="-3.3161" upper="3.3161" effort="50" velocity="2.0944"/>
+      <dynamics damping="0.1" friction="0.3"/>
+    </joint>
+
+    <joint name="J2" type="revolute">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <parent link="J1_link"/>
+      <child link="J2_link"/>
+      <axis xyz="0 1 0"/>
+      <limit lower="-3.1398" upper="3.1398" effort="50" velocity="2.0944"/>
+      <dynamics damping="0.1" friction="0.2"/>
+    </joint>
+
+    <joint name="J3" type="revolute">
+      <origin xyz="0 0 0.71" rpy="0 0 0"/> 
+      <parent link="J2_link"/>
+      <child link="J3_link"/>
+      <axis xyz="0 -1 0"/>
+      <limit lower="-1.2392" upper="4.3867" effort="50" velocity="3.1416"/>
+      <dynamics damping="0.1" friction="0.2"/>
+    </joint>
+
+    <joint name="J4" type="revolute">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <parent link="J3_link"/>
+      <child link="J4_link"/>
+      <axis xyz="-1 0 0"/>
+      <limit lower="-3.3161" upper="3.3161" effort="50" velocity="3.1416"/>
+      <dynamics damping="0.1" friction="0.1"/>
+    </joint>
+
+    <joint name="J5" type="revolute">
+      <origin xyz="0.54 0 0" rpy="0 0 0"/>
+      <parent link="J4_link"/>
+      <child link="J5_link"/>
+      <axis xyz="0 -1 0"/>
+      <limit lower="-3.1398" upper="3.1398" effort="50" velocity="3.1416"/>
+      <dynamics damping="0.1" friction="0.1"/>
+    </joint>
+
+    <joint name="J6" type="revolute">
+      <origin xyz="0 -0.15 0" rpy="0 0 0"/>
+      <parent link="J5_link"/>
+      <child link="J6_link"/>
+      <axis xyz="-1 0 0"/>
+      <limit lower="-3.9269" upper="3.9269" effort="50" velocity="3.1416"/>
+      <dynamics damping="0.1" friction="0.01"/>
+    </joint>
+
+    <!-- Flange coordinates -->
+    <link name="flange" />
+    <joint name="J6-flange" type="fixed">
+      <origin xyz="0.16 0 0" rpy="0 0 0" />
+      <parent link="J6_link" />
+      <child link="flange" />
+    </joint>
+
+    <!-- Add soft gripper to end of arm -->
+    <xacro:include filename="$(find crx_description)/urdf/softgripper.urdf.xacro"/>
+
+   </xacro:macro>
+   </robot>

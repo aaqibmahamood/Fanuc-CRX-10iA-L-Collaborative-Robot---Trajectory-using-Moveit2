@@ -1,0 +1,70 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aaqib/fanuc_ws/build/crx_description
+-- Install configuration: ""
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/launch
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/launch/view_softgripper.launch.py
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/launch/view_robot.launch.py
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j4.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/base.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j5.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j6.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j1.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j3.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j2.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j4.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/base.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j5.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j6.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j1.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j3.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j2.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/softgripper
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/softgripper/softgripper_mount.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/softgripper/softgripper_finger.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/softgripper/quick_changer.stl
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/utils.xacro
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/crx10ia_l.urdf.xacro
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/softgripper.urdf.xacro
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/simulation_interface.xacro
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/crx10ia_l.xacro
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/world
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/world/empty_world.sdf
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/ament_index/resource_index/package_run_dependencies/crx_description
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/ament_index/resource_index/parent_prefix_path/crx_description
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/environment/ament_prefix_path.sh
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/environment/ament_prefix_path.dsv
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/environment/path.sh
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/environment/path.dsv
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/local_setup.bash
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/local_setup.sh
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/local_setup.zsh
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/local_setup.dsv
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.dsv
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/ament_index/resource_index/packages/crx_description
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/cmake/crx_descriptionConfig.cmake
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/cmake/crx_descriptionConfig-version.cmake
+-- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.xml

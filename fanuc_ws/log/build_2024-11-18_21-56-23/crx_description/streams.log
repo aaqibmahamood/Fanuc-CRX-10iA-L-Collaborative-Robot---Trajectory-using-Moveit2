@@ -1,0 +1,52 @@
+[0.022s] Invoking command in '/home/aaqib/fanuc_ws/build/crx_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/crx_description -- -j16 -l16
+[0.097s] Invoked command in '/home/aaqib/fanuc_ws/build/crx_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/crx_description -- -j16 -l16
+[0.170s] Invoking command in '/home/aaqib/fanuc_ws/build/crx_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/crx_description
+[0.183s] -- Install configuration: ""
+[0.183s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/launch
+[0.183s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/launch/view_softgripper.launch.py
+[0.183s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/launch/view_robot.launch.py
+[0.184s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes
+[0.184s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision
+[0.184s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j4.stl
+[0.184s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/base.stl
+[0.184s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j5.stl
+[0.185s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j6.stl
+[0.185s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j1.stl
+[0.185s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j3.stl
+[0.185s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/collision/j2.stl
+[0.185s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual
+[0.185s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j4.stl
+[0.185s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/base.stl
+[0.186s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j5.stl
+[0.186s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j6.stl
+[0.186s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j1.stl
+[0.186s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j3.stl
+[0.186s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/visual/j2.stl
+[0.186s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/softgripper
+[0.186s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/softgripper/softgripper_mount.stl
+[0.187s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/softgripper/softgripper_finger.stl
+[0.187s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/meshes/softgripper/quick_changer.stl
+[0.187s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf
+[0.187s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/utils.xacro
+[0.187s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/crx10ia_l.urdf.xacro
+[0.187s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/softgripper.urdf.xacro
+[0.188s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/simulation_interface.xacro
+[0.188s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/urdf/crx10ia_l.xacro
+[0.188s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/world
+[0.189s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/world/empty_world.sdf
+[0.189s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/ament_index/resource_index/package_run_dependencies/crx_description
+[0.189s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/ament_index/resource_index/parent_prefix_path/crx_description
+[0.189s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/environment/ament_prefix_path.sh
+[0.189s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/environment/ament_prefix_path.dsv
+[0.190s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/environment/path.sh
+[0.190s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/environment/path.dsv
+[0.191s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/local_setup.bash
+[0.191s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/local_setup.sh
+[0.192s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/local_setup.zsh
+[0.192s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/local_setup.dsv
+[0.192s] -- Installing: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.dsv
+[0.193s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/ament_index/resource_index/packages/crx_description
+[0.193s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/cmake/crx_descriptionConfig.cmake
+[0.193s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/cmake/crx_descriptionConfig-version.cmake
+[0.193s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.xml
+[0.194s] Invoked command in '/home/aaqib/fanuc_ws/build/crx_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/crx_description

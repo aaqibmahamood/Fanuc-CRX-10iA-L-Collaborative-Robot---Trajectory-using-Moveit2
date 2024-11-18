@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<robot name="softgripper" xmlns:xacro="http://wiki.ros.org/xacro" xmlns="http://www.w3.org/2001/XMLSchema-instance">
+
+  <!-- links -->
+  <link name="quick_changer">
+    <visual>
+      <origin xyz="-0.0355 -0.0355 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="file://$(find crx_description)/meshes/softgripper/quick_changer.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="blue_material"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.0355 -0.0355 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="file://$(find crx_description)/meshes/softgripper/quick_changer.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="mounting_plate">
+    <visual>
+      <origin xyz="-0.07364 -0.07364 0.0049" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="file://$(find crx_description)/meshes/softgripper/softgripper_mount.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="steel_material"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.07364 -0.07364 0.0049" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="file://$(find crx_description)/meshes/softgripper/softgripper_mount.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="finger_1">
+    <visual>
+      <origin xyz="-0.015 -0.0059 0.09265" rpy="0 1.5708 0"/>
+      <geometry>
+        <mesh filename="file://$(find crx_description)/meshes/softgripper/softgripper_finger.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="softgripper"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="file://$(find crx_description)/meshes/softgripper/softgripper_finger.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+    <link name="finger_2">
+    <visual>
+      <origin xyz="-0.015 -0.0059 0.09265" rpy="0 1.5708 0"/>
+      <geometry>
+        <mesh filename="file://$(find crx_description)/meshes/softgripper/softgripper_finger.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="softgripper"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="file://$(find crx_description)/meshes/softgripper/softgripper_finger.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+    <link name="finger_3">
+    <visual>
+      <origin xyz="-0.015 -0.0059 0.09265" rpy="0 1.5708 0"/>
+      <geometry>
+        <mesh filename="file://$(find crx_description)/meshes/softgripper/softgripper_finger.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="softgripper"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="file://$(find crx_description)/meshes/softgripper/softgripper_finger.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+    <link name="finger_4">
+    <visual>
+      <origin xyz="-0.015 -0.0059 0.09265" rpy="0 1.5708 0"/>
+      <geometry>
+        <mesh filename="file://$(find crx_description)/meshes/softgripper/softgripper_finger.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="softgripper"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="file://$(find crx_description)/meshes/softgripper/softgripper_finger.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Attach EOAT to robot -->
+  <joint name="tool_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 1.5708 0"/>
+    <parent link="flange"/>
+    <child link="quick_changer"/>
+  </joint>
+
+  <joint name="mounting_changer_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="quick_changer"/>
+    <child link="mounting_plate"/>
+  </joint>
+
+  <joint name="finger_1_joint" type="fixed">
+    <origin xyz="-0.04384 0.04384 0.049" rpy="0 0 0.7854"/>
+    <parent link="mounting_plate"/>
+    <child link="finger_1"/>
+  </joint>
+
+    <joint name="finger_2_joint" type="fixed">
+    <origin xyz="-0.04384 -0.04384 0.049" rpy="0 0 2.3562"/>
+    <parent link="mounting_plate"/>
+    <child link="finger_2"/>
+  </joint>
+
+    <joint name="finger_3_joint" type="fixed">
+    <origin xyz="0.04384 0.04384 0.049" rpy="0 0 -0.7854"/>
+    <parent link="mounting_plate"/>
+    <child link="finger_3"/>
+  </joint>
+
+    <joint name="finger_4_joint" type="fixed">
+    <origin xyz="0.04384 -0.04384 0.049" rpy="0 0 -2.3562"/>
+    <parent link="mounting_plate"/>
+    <child link="finger_4"/>
+  </joint>
+</robot>

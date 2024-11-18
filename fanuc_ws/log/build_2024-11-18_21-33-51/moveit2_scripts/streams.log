@@ -1,0 +1,24 @@
+[0.022s] Invoking command in '/home/aaqib/fanuc_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/moveit2_scripts -- -j16 -l16
+[0.285s] [100%] Built target test_trajectory
+[0.314s] Invoked command in '/home/aaqib/fanuc_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/moveit2_scripts -- -j16 -l16
+[0.374s] Invoking command in '/home/aaqib/fanuc_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/moveit2_scripts
+[0.387s] -- Install configuration: ""
+[0.388s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+[0.388s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/launch
+[0.389s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
+[0.389s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
+[0.389s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts
+[0.389s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh
+[0.390s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv
+[0.390s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh
+[0.390s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv
+[0.390s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash
+[0.390s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh
+[0.390s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh
+[0.390s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv
+[0.390s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv
+[0.391s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts
+[0.391s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake
+[0.391s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake
+[0.392s] -- Up-to-date: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml
+[0.395s] Invoked command in '/home/aaqib/fanuc_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/moveit2_scripts

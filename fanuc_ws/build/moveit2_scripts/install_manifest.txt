@@ -1,0 +1,17 @@
+/home/aaqib/fanuc_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake
+/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml

@@ -1,0 +1,267 @@
+[0.143s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.144s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78375854aa10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78375863f010>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78375863f010>>, mixin_verb=('build',))
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.388s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aaqib/fanuc_ws'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx10ia_l_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx10ia_l_moveit_config) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx10ia_l_moveit_config) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx10ia_l_moveit_config) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx10ia_l_moveit_config) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx10ia_l_moveit_config) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx10ia_l_moveit_config) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx10ia_l_moveit_config) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx10ia_l_moveit_config) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crx10ia_l_moveit_config' with type 'ros.ament_cmake' and name 'crx10ia_l_moveit_config'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx_description) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx_description) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx_description) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx_description) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx_description) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx_description) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx_description) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx_description) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/crx_description) by extension 'ros'
+[0.436s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crx_description' with type 'ros.ament_cmake' and name 'crx_description'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extension 'ros'
+[0.438s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit2_scripts' with type 'ros.ament_cmake' and name 'moveit2_scripts'
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.466s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/aaqib/fanuc_ws/install/robot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.466s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/aaqib/fanuc_ws/install/robot_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.467s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/aaqib/fanuc_ws/install
+[0.469s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 352 installed packages in /opt/ros/humble
+[0.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'crx_description' build argument 'cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'crx_description' build argument 'cmake_target' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'crx_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'crx_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'crx_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'crx_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'crx_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'crx_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'crx_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.533s] DEBUG:colcon.colcon_core.verb:Building package 'crx_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aaqib/fanuc_ws/build/crx_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aaqib/fanuc_ws/install/crx_description', 'merge_install': False, 'path': '/home/aaqib/fanuc_ws/src/crx_description', 'symlink_install': False, 'test_result_base': None}
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_target' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_clean_cache' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_clean_first' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_force_configure' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'ament_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'catkin_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.534s] DEBUG:colcon.colcon_core.verb:Building package 'moveit2_scripts' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aaqib/fanuc_ws/build/moveit2_scripts', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aaqib/fanuc_ws/install/moveit2_scripts', 'merge_install': False, 'path': '/home/aaqib/fanuc_ws/src/moveit2_scripts', 'symlink_install': False, 'test_result_base': None}
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'crx10ia_l_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'crx10ia_l_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'crx10ia_l_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'crx10ia_l_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'crx10ia_l_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'crx10ia_l_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'crx10ia_l_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'crx10ia_l_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.535s] Level 5:colcon.colcon_core.verb:set package 'crx10ia_l_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.535s] DEBUG:colcon.colcon_core.verb:Building package 'crx10ia_l_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config', 'merge_install': False, 'path': '/home/aaqib/fanuc_ws/src/crx10ia_l_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.535s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.536s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.537s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aaqib/fanuc_ws/src/crx_description' with build type 'ament_cmake'
+[0.537s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aaqib/fanuc_ws/src/crx_description'
+[0.540s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.546s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aaqib/fanuc_ws/src/moveit2_scripts' with build type 'ament_cmake'
+[0.546s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aaqib/fanuc_ws/src/moveit2_scripts'
+[0.547s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.547s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aaqib/fanuc_ws/build/crx_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/crx_description -- -j16 -l16
+[0.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aaqib/fanuc_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/moveit2_scripts -- -j16 -l16
+[0.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aaqib/fanuc_ws/build/crx_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/crx_description -- -j16 -l16
+[0.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aaqib/fanuc_ws/build/crx_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/crx_description
+[0.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aaqib/fanuc_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/moveit2_scripts -- -j16 -l16
+[0.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crx_description)
+[0.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aaqib/fanuc_ws/build/crx_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/crx_description
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx_description' for CMake module files
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx_description' for CMake config files
+[0.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('crx_description', 'cmake_prefix_path')
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/hook/cmake_prefix_path.ps1'
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/hook/cmake_prefix_path.dsv'
+[0.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/hook/cmake_prefix_path.sh'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx_description/bin'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx_description/lib/pkgconfig/crx_description.pc'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx_description/lib/python3.10/site-packages'
+[0.734s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx_description/bin'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.ps1'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.sh'
+[0.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.bash'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.zsh'
+[0.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aaqib/fanuc_ws/install/crx_description/share/colcon-core/packages/crx_description)
+[0.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aaqib/fanuc_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/moveit2_scripts
+[0.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crx_description)
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx_description' for CMake module files
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx_description' for CMake config files
+[0.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('crx_description', 'cmake_prefix_path')
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/hook/cmake_prefix_path.ps1'
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/hook/cmake_prefix_path.dsv'
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/hook/cmake_prefix_path.sh'
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx_description/bin'
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx_description/lib/pkgconfig/crx_description.pc'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx_description/lib/python3.10/site-packages'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx_description/bin'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.ps1'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.dsv'
+[0.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.sh'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.bash'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx_description/share/crx_description/package.zsh'
+[0.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aaqib/fanuc_ws/install/crx_description/share/colcon-core/packages/crx_description)
+[0.797s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aaqib/fanuc_ws/src/crx10ia_l_moveit_config' with build type 'ament_cmake'
+[0.798s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aaqib/fanuc_ws/src/crx10ia_l_moveit_config'
+[0.798s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.798s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.808s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit2_scripts)
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/moveit2_scripts' for CMake module files
+[0.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aaqib/fanuc_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/moveit2_scripts
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/moveit2_scripts' for CMake config files
+[0.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit2_scripts', 'cmake_prefix_path')
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.ps1'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.dsv'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.sh'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/moveit2_scripts/lib'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/moveit2_scripts/bin'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/moveit2_scripts/lib/pkgconfig/moveit2_scripts.pc'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/moveit2_scripts/lib/python3.10/site-packages'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/moveit2_scripts/bin'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.ps1'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.sh'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.bash'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.zsh'
+[0.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aaqib/fanuc_ws/install/moveit2_scripts/share/colcon-core/packages/moveit2_scripts)
+[0.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config': CMAKE_PREFIX_PATH=/home/aaqib/fanuc_ws/install/crx_description:/home/aaqib/fanuc_ws/install/robot_description:/home/aaqib/fanuc_ws/install/moveit2_scripts:/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config -- -j16 -l16
+[0.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit2_scripts)
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/moveit2_scripts' for CMake module files
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/moveit2_scripts' for CMake config files
+[0.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit2_scripts', 'cmake_prefix_path')
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.ps1'
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.dsv'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.sh'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/moveit2_scripts/lib'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/moveit2_scripts/bin'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/moveit2_scripts/lib/pkgconfig/moveit2_scripts.pc'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/moveit2_scripts/lib/python3.10/site-packages'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/moveit2_scripts/bin'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.ps1'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.sh'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.bash'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.zsh'
+[0.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aaqib/fanuc_ws/install/moveit2_scripts/share/colcon-core/packages/moveit2_scripts)
+[0.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/aaqib/fanuc_ws/install/crx_description:/home/aaqib/fanuc_ws/install/robot_description:/home/aaqib/fanuc_ws/install/moveit2_scripts:/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config -- -j16 -l16
+[0.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config': CMAKE_PREFIX_PATH=/home/aaqib/fanuc_ws/install/crx_description:/home/aaqib/fanuc_ws/install/robot_description:/home/aaqib/fanuc_ws/install/moveit2_scripts:/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config
+[0.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crx10ia_l_moveit_config)
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config' for CMake module files
+[0.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/aaqib/fanuc_ws/install/crx_description:/home/aaqib/fanuc_ws/install/robot_description:/home/aaqib/fanuc_ws/install/moveit2_scripts:/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config' for CMake config files
+[0.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('crx10ia_l_moveit_config', 'cmake_prefix_path')
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/hook/cmake_prefix_path.ps1'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/hook/cmake_prefix_path.dsv'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/hook/cmake_prefix_path.sh'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/bin'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/lib/pkgconfig/crx10ia_l_moveit_config.pc'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/lib/python3.10/site-packages'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/bin'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/package.ps1'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/package.dsv'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/package.sh'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/package.bash'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/package.zsh'
+[0.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/colcon-core/packages/crx10ia_l_moveit_config)
+[1.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crx10ia_l_moveit_config)
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config' for CMake module files
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config' for CMake config files
+[1.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('crx10ia_l_moveit_config', 'cmake_prefix_path')
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/hook/cmake_prefix_path.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/hook/cmake_prefix_path.dsv'
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/hook/cmake_prefix_path.sh'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/bin'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/lib/pkgconfig/crx10ia_l_moveit_config.pc'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/lib/python3.10/site-packages'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/bin'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/package.ps1'
+[1.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/package.dsv'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/package.sh'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/package.bash'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/package.zsh'
+[1.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/colcon-core/packages/crx10ia_l_moveit_config)
+[1.027s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.028s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.028s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.028s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.039s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.040s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.040s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.065s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aaqib/fanuc_ws/install/local_setup.ps1'
+[1.068s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aaqib/fanuc_ws/install/_local_setup_util_ps1.py'
+[1.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aaqib/fanuc_ws/install/setup.ps1'
+[1.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aaqib/fanuc_ws/install/local_setup.sh'
+[1.077s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aaqib/fanuc_ws/install/_local_setup_util_sh.py'
+[1.078s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aaqib/fanuc_ws/install/setup.sh'
+[1.082s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aaqib/fanuc_ws/install/local_setup.bash'
+[1.083s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aaqib/fanuc_ws/install/setup.bash'
+[1.086s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aaqib/fanuc_ws/install/local_setup.zsh'
+[1.087s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aaqib/fanuc_ws/install/setup.zsh'

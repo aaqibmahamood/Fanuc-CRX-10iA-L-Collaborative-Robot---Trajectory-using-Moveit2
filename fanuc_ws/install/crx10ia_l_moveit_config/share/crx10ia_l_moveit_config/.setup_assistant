@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: crx_description
+    relative_path: urdf/crx10ia_l.xacro
+  srdf:
+    relative_path: config/crx10ial.srdf
+  package_settings:
+    author_name: Aaqib Mahamood
+    author_email: aaqibmahamood1@gmail.com
+    generated_timestamp: 1731940587

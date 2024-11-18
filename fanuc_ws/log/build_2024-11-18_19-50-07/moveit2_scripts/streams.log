@@ -1,0 +1,89 @@
+[0.024s] Invoking command in '/home/aaqib/fanuc_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aaqib/fanuc_ws/src/moveit2_scripts -DCMAKE_INSTALL_PREFIX=/home/aaqib/fanuc_ws/install/moveit2_scripts
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.210s] -- The CXX compiler identification is GNU 11.4.0
+[0.221s] -- Detecting C compiler ABI info
+[0.339s] -- Detecting C compiler ABI info - done
+[0.358s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.359s] -- Detecting C compile features
+[0.360s] -- Detecting C compile features - done
+[0.368s] -- Detecting CXX compiler ABI info
+[0.519s] -- Detecting CXX compiler ABI info - done
+[0.531s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.532s] -- Detecting CXX compile features
+[0.533s] -- Detecting CXX compile features - done
+[0.542s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.799s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.942s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.004s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.013s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.030s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.050s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.075s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.142s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.146s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.318s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.363s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.432s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.446s] -- Looking for pthread.h
+[1.570s] -- Looking for pthread.h - found
+[1.571s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.685s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.687s] -- Found Threads: TRUE  
+[1.781s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.831s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[1.883s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.903s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.932s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.968s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.191s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.295s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.295s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.603s] -- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[2.610s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.647s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.654s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.675s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.707s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.748s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[2.755s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.796s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.911s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.911s] -- Configured cppcheck include dirs: /home/aaqib/fanuc_ws/src/moveit2_scripts/include
+[2.911s] -- Configured cppcheck exclude dirs and/or files: 
+[2.912s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.912s] -- Added test 'lint_cmake' to check CMake code style
+[2.913s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.915s] -- Added test 'uncrustify' to check C / C++ code style
+[2.915s] -- Configured uncrustify additional arguments: 
+[2.915s] -- Added test 'xmllint' to check XML markup files
+[2.917s] -- Configuring done
+[2.959s] -- Generating done
+[2.962s] -- Build files have been written to: /home/aaqib/fanuc_ws/build/moveit2_scripts
+[2.981s] Invoked command in '/home/aaqib/fanuc_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aaqib/fanuc_ws/src/moveit2_scripts -DCMAKE_INSTALL_PREFIX=/home/aaqib/fanuc_ws/install/moveit2_scripts
+[2.983s] Invoking command in '/home/aaqib/fanuc_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/moveit2_scripts -- -j16 -l16
+[3.083s] [ 50%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o[0m
+[11.733s] [100%] [32m[1mLinking CXX executable test_trajectory[0m
+[12.051s] [100%] Built target test_trajectory
+[12.074s] Invoked command in '/home/aaqib/fanuc_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/moveit2_scripts -- -j16 -l16
+[12.107s] Invoking command in '/home/aaqib/fanuc_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/moveit2_scripts
+[12.113s] -- Install configuration: ""
+[12.113s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+[12.114s] -- Set runtime path of "/home/aaqib/fanuc_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory" to ""
+[12.114s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/launch
+[12.114s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
+[12.114s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
+[12.115s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts
+[12.115s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh
+[12.115s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv
+[12.115s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh
+[12.115s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv
+[12.116s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash
+[12.116s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh
+[12.116s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh
+[12.116s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv
+[12.116s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv
+[12.116s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts
+[12.117s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake
+[12.117s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake
+[12.117s] -- Installing: /home/aaqib/fanuc_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml
+[12.120s] Invoked command in '/home/aaqib/fanuc_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/moveit2_scripts

@@ -1,0 +1,6 @@
+Invoking command in '/home/aaqib/fanuc_ws/build/crx_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aaqib/fanuc_ws/src/crx_description -DCMAKE_INSTALL_PREFIX=/home/aaqib/fanuc_ws/install/crx_description
+Invoked command in '/home/aaqib/fanuc_ws/build/crx_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aaqib/fanuc_ws/src/crx_description -DCMAKE_INSTALL_PREFIX=/home/aaqib/fanuc_ws/install/crx_description
+Invoking command in '/home/aaqib/fanuc_ws/build/crx_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/crx_description -- -j16 -l16
+Invoked command in '/home/aaqib/fanuc_ws/build/crx_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/crx_description -- -j16 -l16
+Invoking command in '/home/aaqib/fanuc_ws/build/crx_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/crx_description
+Invoked command in '/home/aaqib/fanuc_ws/build/crx_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/crx_description

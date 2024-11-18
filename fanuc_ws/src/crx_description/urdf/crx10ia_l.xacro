@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="crx10ial" xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <!-- Arguments -->
+  <xacro:arg name="moveit_only" default="false"/>
+  <xacro:arg name="gazebo_classic" default="true"/>
+
+  <!-- Utils -->
+  <xacro:include filename="$(find crx_description)/urdf/utils.xacro" />
+
+  <!-- Robot model-->
+  <xacro:include filename="$(find crx_description)/urdf/crx10ia_l.urdf.xacro"/>
+
+  <!-- Simulation interface -->
+  <xacro:include filename="$(find crx_description)/urdf/simulation_interface.xacro"/>
+  <xacro:ros2_control name="GazeboSystem" initial_positions_file="$(find crx10ia_l_moveit_config)/config/initial_positions.yaml" moveit_only="$(arg moveit_only)" gazebo_classic="$(arg gazebo_classic)"/>
+
+  <xacro:crx10ial/>
+</robot>

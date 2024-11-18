@@ -1,0 +1,29 @@
+[0.032s] Invoking command in '/home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config': CMAKE_PREFIX_PATH=/home/aaqib/fanuc_ws/install/crx_description:/home/aaqib/fanuc_ws/install/moveit2_scripts:/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config -- -j16 -l16
+[0.105s] Invoked command in '/home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/aaqib/fanuc_ws/install/crx_description:/home/aaqib/fanuc_ws/install/moveit2_scripts:/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config:/opt/ros/humble /usr/bin/cmake --build /home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config -- -j16 -l16
+[0.149s] Invoking command in '/home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config': CMAKE_PREFIX_PATH=/home/aaqib/fanuc_ws/install/crx_description:/home/aaqib/fanuc_ws/install/moveit2_scripts:/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config
+[0.162s] -- Install configuration: ""
+[0.162s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/launch
+[0.162s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/launch/setup_assistant.launch.py
+[0.162s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/launch/spawn_controllers.launch.py
+[0.163s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/launch/demo.launch.py
+[0.163s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/launch/moveit_rviz.launch.py
+[0.163s] -- Installing: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/launch/move_group.launch.py
+[0.163s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/launch/rsp.launch.py
+[0.163s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[0.164s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/launch/warehouse_db.launch.py
+[0.164s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/ament_index/resource_index/package_run_dependencies/crx10ia_l_moveit_config
+[0.164s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/ament_index/resource_index/parent_prefix_path/crx10ia_l_moveit_config
+[0.164s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/environment/ament_prefix_path.sh
+[0.164s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/environment/ament_prefix_path.dsv
+[0.164s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/environment/path.sh
+[0.164s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/environment/path.dsv
+[0.164s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/local_setup.bash
+[0.165s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/local_setup.sh
+[0.165s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/local_setup.zsh
+[0.165s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/local_setup.dsv
+[0.165s] -- Installing: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/package.dsv
+[0.165s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/ament_index/resource_index/packages/crx10ia_l_moveit_config
+[0.165s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/cmake/crx10ia_l_moveit_configConfig.cmake
+[0.165s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/cmake/crx10ia_l_moveit_configConfig-version.cmake
+[0.166s] -- Up-to-date: /home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config/share/crx10ia_l_moveit_config/package.xml
+[0.168s] Invoked command in '/home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/aaqib/fanuc_ws/install/crx_description:/home/aaqib/fanuc_ws/install/moveit2_scripts:/home/aaqib/fanuc_ws/install/crx10ia_l_moveit_config:/opt/ros/humble /usr/bin/cmake --install /home/aaqib/fanuc_ws/build/crx10ia_l_moveit_config

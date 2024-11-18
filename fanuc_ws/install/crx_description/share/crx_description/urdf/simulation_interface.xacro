@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<robot name="crx10ial" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="ros2_control" params="name initial_positions_file moveit_only gazebo_classic">
+        <xacro:property name="initial_positions" value="${xacro.load_yaml(initial_positions_file)['initial_positions']}"/>
+        
+        <!-- Simulation ros2_control interface -->
+        <ros2_control name="${name}" type="system">
+            <hardware>
+
+                <!-- When only MoveIt is loaded, load MoveIt controller -->
+                <xacro:if value="${moveit_only}">
+                    <plugin>mock_components/GenericSystem</plugin>
+                </xacro:if>
+
+                <!-- When Gazebo is also loaded, load Gazebo controllers -->
+                <xacro:unless value="${moveit_only}">
+                    
+                    <xacro:if value="${gazebo_classic}">
+                        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+                    </xacro:if>
+                    <xacro:unless value="${gazebo_classic}">
+                        <plugin>ign_ros2_control/IgnitionSystem</plugin>
+                    </xacro:unless>
+
+                </xacro:unless>
+
+            </hardware>
+
+            <joint name="J1">
+                <command_interface name="position">
+                    <param name="min">{-2*pi}</param>
+                    <param name="max">{2*pi}</param>
+                </command_interface>
+                <state_interface name="position">
+                <param name="initial_value">${initial_positions['J1']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+                <state_interface name="effort"/>
+            </joint>
+
+            <joint name="J2">
+                <command_interface name="position">
+                    <param name="min">{-2*pi}</param>
+                    <param name="max">{2*pi}</param>
+                </command_interface>               
+                <state_interface name="position">
+                <param name="initial_value">${initial_positions['J2']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+                <state_interface name="effort"/>
+            </joint>
+
+            <joint name="J3">
+                <command_interface name="position">
+                    <param name="min">{-1* pi}</param>
+                    <param name="max">{pi}</param>
+                </command_interface>               
+                <state_interface name="position">
+                <param name="initial_value">${initial_positions['J3']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+                <state_interface name="effort"/>
+            </joint>
+
+            <joint name="J4">
+                <command_interface name="position">
+                    <param name="min">{-2*pi}</param>
+                    <param name="max">{2*pi}</param>
+                </command_interface>          
+                <state_interface name="position">
+                <param name="initial_value">${initial_positions['J4']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+                <state_interface name="effort"/>
+            </joint>
+
+            <joint name="J5">
+                <command_interface name="position">
+                    <param name="min">{-2*pi}</param>
+                    <param name="max">{2*pi}</param>
+                </command_interface>             
+                <state_interface name="position">
+                <param name="initial_value">${initial_positions['J5']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+                <state_interface name="effort"/>
+            </joint>
+
+            <joint name="J6">
+                <command_interface name="position">
+                    <param name="min">{-2*pi}</param>
+                    <param name="max">{2*pi}</param>
+                </command_interface>              
+                <state_interface name="position">
+                <param name="initial_value">${initial_positions['J6']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+                <state_interface name="effort"/>
+            </joint>
+        </ros2_control>
+
+        <!-- Gazebo plugins -->
+        <gazebo>
+            <xacro:if value="${gazebo_classic}">
+                <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+                    <parameters>$(find crx10ia_l_moveit_config)/config/ros2_controllers.yaml</parameters>
+                </plugin>
+            </xacro:if>
+            <xacro:unless value="${gazebo_classic}">
+                <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+                    <parameters>$(find crx10ia_l_moveit_config)/config/ros2_controllers.yaml</parameters>
+                </plugin>
+                <plugin filename="libignition-gazebo-imu-system.so" name="ignition::gazebo::systems::Imu"/>
+            </xacro:unless>
+        </gazebo>
+
+        <!-- Add colours to the robot in Gazebo -->
+        <gazebo reference="base_link">
+            <material>Gazebo/Road</material>
+        </gazebo>
+        <gazebo reference="J1_link">
+            <material>Gazebo/White</material>
+        </gazebo>
+        <gazebo reference="J2_link">
+            <material>Gazebo/White</material>
+        </gazebo>
+        <gazebo reference="J3_link">
+            <material>Gazebo/White</material>
+        </gazebo>
+        <gazebo reference="J4_link">
+            <material>Gazebo/White</material>
+        </gazebo>
+        <gazebo reference="J5_link">
+            <material>Gazebo/White</material>
+        </gazebo>
+        <gazebo reference="J6_link">
+            <material>Gazebo/Road</material>
+        </gazebo>
+
+        <!-- Add colours to the end effector -->
+        <gazebo reference="quick_changer">
+            <material>Gazebo/Blue</material>
+        </gazebo>
+
+        <gazebo reference="mounting_plate">
+            <material>Gazebo/Grey</material>
+        </gazebo>
+
+        <gazebo reference="finger_1">
+            <material>Gazebo/BlueGlow</material>
+        </gazebo>
+
+        <gazebo reference="finger_2">
+            <material>Gazebo/BlueGlow</material>
+        </gazebo>
+
+        <gazebo reference="finger_3">
+            <material>Gazebo/BlueGlow</material>
+        </gazebo>
+
+        <gazebo reference="finger_4">
+            <material>Gazebo/BlueGlow</material>
+        </gazebo>
+
+    </xacro:macro>
+</robot>
