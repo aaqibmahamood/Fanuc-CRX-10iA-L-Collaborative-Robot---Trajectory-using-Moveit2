@@ -178,46 +178,45 @@ ros2 launch moveit_setup_assistant setup_assistant.launch.py
 
 ### Configuration Steps
 1. **Load URDF**
-   - Browse and select `crx10ia_l.urdf.xacro`
-   ![urdf_load.png](assets/urdf_load.png)
+- Browse and select `crx10ia_l.urdf.xacro`
 
 2. **Self-Collision Matrix**
-   - Generate Collision Matrix
-   ![collision_matrix.png](assets/collision_matrix.png)
+- Generate Collision Matrix
+![collision_matrix.png](assets/collision_matrix.png)
 
 3. **Virtual Joints**
-   - Create Joint:
-     - Name: `world_base`
-     - Parent Frame: `world`
-     - Child Link: `base_link`
-     - Type: `fixed`
-     ![virtual_joints.png](assets/virtual_joints)
+- Create Joint:
+- Name: `world_base`
+- Parent Frame: `world`
+- Child Link: `base_link`
+- Type: `fixed`
+![virtual_joints.png](assets/virtual_joints)
 
 4. **Planning Groups**
-   - Group Name: `manipulator`
-   - Kinematics Plugin: KDLKinematicsPlugin
-   - Base Link: `base_link`
-   - Tip Link: `flange`
-   ![planning_groups.png](assets/planning_groups.png)
+- Group Name: `manipulator`
+- Kinematics Plugin: KDLKinematicsPlugin
+- Base Link: `base_link`
+- Tip Link: `flange`
+![planning_groups.png](assets/planning_groups.png)
 
 5. **Robot Poses**
-   - Add `home` pose for `manipulator` group
+- Add `home` pose for `manipulator` group
 
-   ### MoveIt2 Configuration -  Home Robot Pose
-   ![home.mp4](assets/home.mp4)
+### MoveIt2 Configuration -  Home Robot Pose
+![home.mp4](assets/home.mp4)
 
 6. **End Effector**
-   - Name: `end_effector`
-   - Group: `manipulator`
-   - Parent Link: `flange`
-   ![end_effector.png](assets/end_effector.png)
+- Name: `end_effector`
+- Group: `manipulator`
+- Parent Link: `flange`
+![end_effector.png](assets/end_effector.png)
 
 7. **Define Passive Joints**  
-   ![passive_joints.png](assets/passive_joints.png) 
+![passive_joints.png](assets/passive_joints.png) 
 
 8. **Generate and Save the MoveIt Package**    
-   ![author.png](assets/author.png) 
-   ![generate.png](assets/generate.png) 
+![author.png](assets/author.png) 
+![generate.png](assets/generate.png) 
 
 ## <span id="4">4. Trajectory Planning Package
 
