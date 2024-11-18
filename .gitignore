@@ -1,0 +1,33 @@
+# ROS2 specific ignores
+build/
+install/
+log/
+*.pyc
+__pycache__/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Compiled sources
+*.o
+*.a
+*.so
+
+# Colcon/CMake build files
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+
+# ROS bag files
+*.bag
+*.bag.active
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
